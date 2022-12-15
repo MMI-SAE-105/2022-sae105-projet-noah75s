@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="fr" x-data="{menuIsOpen: false}">
+<html lang="fr" x-data="{menuIsOpen: false}"> 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,19 +7,45 @@
     <title>Retour vers le présent</title>
     <link rel="stylesheet" href="./src/css/pages/style.css"/>
     <script defer src="https://unpkg.com/alpinejs"></script>
- 
+    <link rel="stylesheet" href="./src/css/pages/menu.css"/>
   </head>
   <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Retour vers le présent} -->
     <header>
-      <button aria-controls="mainNav"><a href="menu">Menu</a></button>  
 
-      <nav id="mainNav"x-show="menuIsOpen">
+      <head>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        </head>
+      
+        <body>
+          <input type="checkbox" id="active">
+          <label for="active" class="menu-btn"><span></span></label>
+          <label for="active" class="close"></label>
+          <div class="wrapper">
+            <ul>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">A propos</a></li> <br>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#">Autres projets</a></li> <br> 
+      <li><a href="#"><img src="../public/img/tinify-2022-11-16T15_22_19/tinify-2022-11-16T15_22_18/image 40.webp" style="width:60px;height:30px;"> </a></li>
+      </ul>
+      </div>
+      <div class="content">
+        
+      </div>
+      </body>
+      
+
+      <br><br><br><h1>Retour vers le présent</h1>
+      <nav id="mainNav" x-show="menuIsOpen">
         </nav>
     </header>
     <!-- h2>lorem2^p>lorem -->
-<h1>Breaking Bad</h1>
+    <br><br><br><h1>Breaking Bad</h1>
 <h2>Breaking Bad est une série télévisée américaine en 62 épisodes de 47 minutes, créée par Vince Gilligan.</h2>
 
 <img src="../public/img/tinify-2022-11-16T15_22_19/tinify-2022-11-16T15_22_18/image 50.webp" alt="Image" style="width:150px;height:300px;">
