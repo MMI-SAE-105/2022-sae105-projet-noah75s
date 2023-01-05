@@ -3,3 +3,24 @@ footer{
 }
 
 footer{color: rgb(255, 255, 255);}
+.reseauxsociaux  {
+    display: flex;
+    
+}
+
+.insta {
+    width: 10vw;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+}
+    
+
+  .linkedin { 
+    width: 10vw;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+  }
