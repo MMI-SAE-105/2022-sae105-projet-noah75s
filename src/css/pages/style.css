@@ -50,3 +50,10 @@ a{color: white;}
         text-decoration: underline;
         padding-bottom: 200px;
        }
+
+ h1 {
+        text-align: center;
+        margin-top: 3px;
+        padding-bottom: 9px;
+        
+       }
